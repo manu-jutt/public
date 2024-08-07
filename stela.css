@@ -1,0 +1,17 @@
+.gall{
+    display: inline-block;
+    border: 1px solid darkgray;
+    margin: 5px;
+    width: 200px;
+}
+.gall .des{
+    padding: 10px;
+    text-align: center;
+}
+.gall:hover{
+    border: 2px solid rgb(153, 151, 151);
+    box-shadow: 5px 5px 5px black;
+}
+.gall img{
+    width: 100%;
+}
