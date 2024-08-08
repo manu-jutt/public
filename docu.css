@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(107, 20, 20);
+}
+.box{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: lime;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    animation: slider;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes slidel{
+    from{transform: translateX(300%);}
+}
+@keyframes slider{
+    to{transform: translateX(300%);}
+}
+@keyframes slideu{
+    from{transform: translatey(400px);}
+}
+@keyframes slided{
+    to{transform: translatey(400px);}
+}
+@keyframes rotate{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes rotatey{
+    100%{transform: rotatey(360deg);}
+}
+@keyframes rotatez{
+    100%{transform: rotatez(360deg);}
+}
+@keyframes scg{
+    50%{transform: scale(2,2);}
+}
+@keyframes scs{
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes coc{
+    10%{background-color: rgb(63, 63, 63);}
+    20%{background-color: rgb(95, 95, 95);}
+    30%{background-color: rgb(175, 173, 173);}
+    40%{background-color: rgb(206, 205, 205);}
+    50%{background-color: rgb(255, 240, 240);}
+    60%{background-color: rgb(200, 200, 200);}
+    70%{background-color: rgb(170, 170, 170);}
+    80%{background-color: rgb(95, 95, 95);}
+    90%{background-color: rgb(63, 63, 63);}
+    100%{background-color: rgb(0, 0, 0);}
+}
+@keyframes fad{
+    50%{opacity: 0;}
+}
