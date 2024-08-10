@@ -1,0 +1,49 @@
+#box{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+@keyframes myslide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+ }
+@keyframes myop{
+    50%{opacity: 0;}
+}
+@keyframes mysc{
+    50%{transform: scale(0,0);}
+}
+@keyframes coch{
+    10%{background-color: brown;}
+    20%{background-color: rgb(223, 86, 86);}
+    30%{background-color: rgb(170, 42, 42);}
+    40%{background-color: maroon;}
+    50%{background-color: red;}
+    60%{background-color: orange;}
+    70%{background-color: yellow;}
+    80%{background-color: greenyellow;}
+    90%{background-color: lightgreen;}
+    100%{background-color: green;}
+    50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes rot{
+    100%{transform: rotateZ(360deg)}
+}
+#box:hover{
+    animation: coch;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+#box:active{
+    animation: rot;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
