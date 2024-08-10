@@ -1,0 +1,17 @@
+body{
+    font-family: verdana;
+    font-size: 2em;
+}
+button{
+    background-color: black;
+    color: lightblue;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: gray;
+}
