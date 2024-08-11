@@ -1,0 +1,76 @@
+body{
+    background-image: url("folder.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+ h1{
+    color: chartreuse;
+    font-family: "press start 2p";
+}
+.par{
+    border: 5px solid;
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    border: 5px solid;
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    background-color: chocolate;
+    color: aqua;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parag{
+    border: 5px solid;
+    width: 400px;
+    height: 250px;
+    font-size: 20px;
+    background-color: blue;
+    color: aquamarine;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragr{
+    border: 5px solid;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    background-color: slateblue;
+    color: bisque;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragra{
+    border: 5px solid;
+    width:400px;
+    height:400px;
+    font-size: 20px;
+    background-color: darkgreen;
+    color: bisque;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-twitter{
+    color: aqua;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: mediumorchid;
+}

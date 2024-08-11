@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+header{
+    background-color: rgba(211, 211, 211, 0.76);
+    text-align: center;
+    padding: 25px;
+    color: rgb(53, 41, 41);
+}
+header::first-letter{
+    color: black;
+    font-size: 2em;
+    font-style: italic;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+footer::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    color: wheat;
+}
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;    
+    }
+}
