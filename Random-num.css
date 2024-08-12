@@ -1,0 +1,27 @@
+body{
+    font-family: verdana;
+}
+button{
+    background-color: black;
+    color: lightblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: gray;
+}
+.countlabels{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+}
+#button{
+    text-align: center;
+}
