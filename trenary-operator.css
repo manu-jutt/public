@@ -1,0 +1,23 @@
+body{
+    font-family: verdana;
+    display: block;
+}
+label{
+    font-size: 2em;
+}
+#mybutton{
+    background-color: rgb(82, 104, 230);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 100px;
+    font-size: 1.2em;
+}
+#mybutton:hover{
+    background-color: white;
+    color: blue;
+}
+#mybutton:active{
+    background-color: rgb(206, 199, 199);
+    color: rgb(2, 2, 160);
+}
